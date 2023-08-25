@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/abc.xml" value="0.254" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/add.xml" value="0.249" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/arrow_btn.xml" value="0.249" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/back_button.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/backspace.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/bg_gradient.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/bottom_dilog_box.xml" value="0.249" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/cbe_back_g.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/cbe_bg__button_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/cbe_bg_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/dialog_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/gary_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.249" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.249" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/ic_close.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/ic_delete.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/my_blue_button.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/pay_btn_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/scan_btn.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/scan_btn_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/search_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/table_box.xml" value="0.254" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/text_input_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/drawable/white_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_about.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_anlytics.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_buyer_home.xml" value="0.264" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_buyer_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_gan_qr.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_item_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_login.xml" value="0.25552825552825553" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_pin_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_store.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_table.xml" value="0.264" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_taste.xml" value="0.264" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_ussd_taste.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/activity_view_history.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/fragment_analysis.xml" value="0.4" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/fragment_store.xml" value="0.2" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/notifiction.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/recite_layout.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/set_pin_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/slider_layout.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/two.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/ussd_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/view_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr-2/app/src/main/res/layout/view_qr_code.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.208" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/back_button.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/backgound_splash.xml" value="0.1045" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/bg_gradient.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/bg_white.xml" value="0.2" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/bottom_nav_color.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/button_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/home.xml" value="0.252" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/ic_analytics.xml" value="0.208" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.208" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/ic_launcher_background.xml" value="0.208" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/ic_qr_scanning_3.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/ic_qr_scanning_3_last.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/ic_scan.xml" value="0.208" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/ic_setting.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/ic_store.xml" value="0.208" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/my_luncher_background.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/scan_btn.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/drawable/text_input_box.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_Home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_anlytics.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_database.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_send_receipt.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_store.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/activity_taste.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/fragment_person.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/fragment_setting.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/fragment_store.xml" value="0.264" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/fragment_third.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/layout/two.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/menu/me.xml" value="1.525" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2305" />
+        <entry key="..\:/Users/jo/AndroidStudioProjects/qr/app/src/main/res/mipmap-anydpi-v26/splash_icon.xml" value="0.2305" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

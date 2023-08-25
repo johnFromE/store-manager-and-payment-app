@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/close_d_btn"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/zxing_transparent"
+            android:layout_gravity="right"
+            app:tint="@color/my_gray" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="scan the QR-code \nvia buyer phone"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:textColor="@color/my_gray"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/qr_imgaeView"
+            android:layout_width="255.5dp"
+            android:layout_height="250dp"
+            android:padding="5dp"
+            tools:layout_editor_absoluteY="234dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/done_btn_o"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="done"
+            android:textSize="30dp"
+            android:background="@drawable/my_blue_button"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

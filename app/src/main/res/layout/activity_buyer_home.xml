@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyerHome"
+    android:background="@drawable/cbe_back_g">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/white_box"
+    android:layout_marginTop="100dp"
+    android:paddingTop="75dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/my_gray"
+            android:text="transcation ID"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/buyer_Tid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="..."
+            android:textColorHint="@color/gary"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:background="@drawable/gary_box"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/my_gray"
+            android:text="Saler Phone"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/buyer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="..."
+            android:textColorHint="@color/gary"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:background="@drawable/gary_box"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/my_gray"
+            android:text="Item list"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/buyer_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="..."
+            android:textColorHint="@color/gary"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:background="@drawable/gary_box"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/my_gray"
+                    android:text="Price"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/buyer_price"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:hint="..."
+            android:textColorHint="@color/gary"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:padding="5dp"
+                    android:background="@drawable/gary_box"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/my_gray"
+                    android:text="Tax"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/buyer_tax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:hint="..."
+            android:textColorHint="@color/gary"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:padding="5dp"
+                    android:background="@drawable/gary_box"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/my_gray"
+            android:text="Total price"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="..."
+            android:textColorHint="@color/gary"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:background="@drawable/gary_box"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="      pAY     "
+            android:id="@+id/pay_btn"
+            android:textSize="25dp"
+            android:background="@drawable/cbe_bg_box"
+            android:layout_margin="2dp"
+            />
+        <Button
+            android:layout_margin="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="     scan    "
+            android:id="@+id/buyer_scan"
+            android:textSize="25dp"
+            android:background="@drawable/blue_button_box"
+            />
+    </LinearLayout>
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_setting"
+            app:tint="@color/white"
+            android:background="@color/zxing_transparent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/buyer_settingBtn"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/cbe_bg_box">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CBE Birr"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

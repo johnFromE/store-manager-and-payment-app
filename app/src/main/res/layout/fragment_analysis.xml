@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".analysisFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".MainActivity"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewGraph"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:elevation="10dp"
+            android:backgroundTint="@color/little_white"
+            app:cardCornerRadius="10dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/month_btn"
+                android:layout_width="70dp"
+                android:layout_height="80px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:elevation="90dp"
+                android:backgroundTint="@color/my_blue"
+                app:cardCornerRadius="10dp"
+                android:translationZ="3dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="month"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:layout_marginTop="5dp"/>
+
+                <NumberPicker
+                    android:visibility="gone"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/number_picker"
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:background="@color/gary"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="more"
+                android:id="@+id/more_btn"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="40dp"
+                android:padding="4dp">
+
+                <org.eazegraph.lib.charts.ValueLineChart
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cubiclinechart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:egUseCubic="true"
+                    app:egUseOverlapFill="true"
+                    app:egCurveSmoothness="0.4"
+                    app:egLegendHeight="40dp"
+                    app:egLegendTextSize="10dp"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cardViewGraph"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/details"
+            android:backgroundTint="@color/little_white">
+
+
+            <TextView
+                android:id="@+id/top_saleing_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Top Saleing Items"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/my_gray"/>
+
+            <!--View to display the line-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/my_gray"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="55dp"/>
+            <Button
+                android:id="@+id/clear_history"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:text="X"
+                android:layout_gravity="right"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/gary"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:id="@+id/top_saleing_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/view_history"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:textSize="10dp"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/my_gray"
+            android:layout_alignParentBottom="true"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

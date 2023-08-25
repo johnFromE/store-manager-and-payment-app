@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@color/white">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="login"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:textStyle="bold"
+                android:textColor="@color/my_blue"/>
+            <TextView
+                android:textColor="@color/my_black"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Phone Number"
+                android:layout_marginTop="50dp"
+                />
+            <EditText
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/text_input_box"
+                android:id="@+id/enterd_username"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/my_black"/>
+
+            <TextView
+                android:textColor="@color/my_black"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Password"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/text_input_box"
+                android:id="@+id/enterd_password"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/my_black"/>
+            <TextView
+                android:id="@+id/login_comment"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=""
+                android:textColor="@color/read"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/my_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_blue_button"
+                android:textAlignment="center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text_in_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="LOGIN"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/progress_bar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/loading_bar"/>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/nav_register"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:text="Register"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/my_blue_button"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

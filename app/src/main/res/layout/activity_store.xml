@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anlytics"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/little_white"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register Item"
+                android:textSize="35dp"
+                android:textColor="@color/my_gray"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+
+
+            <EditText
+                android:id="@+id/textToView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="ID"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gary"
+                android:background="@drawable/white_box"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"/>
+            <EditText
+                android:id="@+id/product_two"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Item"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gary"
+                android:background="@drawable/white_box"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:id="@+id/name_two"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Item Brand"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gary"
+                android:background="@drawable/white_box"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:id="@+id/o_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="price"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gary"
+                android:background="@drawable/white_box"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"/>
+            <EditText
+                android:id="@+id/price_two"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Saleing price"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gary"
+                android:background="@drawable/white_box"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"/>
+            <EditText
+                android:id="@+id/amount_r"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Iteam amount"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gary"
+                android:background="@drawable/white_box"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/scan_two"
+                android:layout_width="match_parent"
+                android:background="@drawable/my_blue_button"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:text="scan" />
+
+            <Button
+                android:id="@+id/store_two"
+                android:layout_width="match_parent"
+                android:background="@drawable/my_blue_button"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:text="save"/>
+
+            <Button
+                android:id="@+id/view_two"
+                android:layout_width="match_parent"
+                android:background="@drawable/my_blue_button"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:text="view" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
