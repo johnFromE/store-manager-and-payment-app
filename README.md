@@ -1,6 +1,8 @@
 # Store Manager and Payment App
-
 The Android Store Manager and Payment App, developed by Yonas Ayele, is a comprehensive application designed to streamline the sales management process for businesses operating in various markets. This README file provides an overview of the system, its features, installation instructions, and usage guidelines.
+
+**Home Layout**
+![App Screenshot](https://user-images.githubusercontent.com/89530839/263493363-1af6f88f-d487-426f-a069-dc7ab0e57119.jpg)
 
 ## Table of Contents
 - [Features](#features)
