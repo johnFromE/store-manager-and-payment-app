@@ -31,7 +31,7 @@ Follow these steps to set up the Android Market Sales Management System:
 
 1. **Clone Repository**: Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/android-sales-management.git
+   https://github.com/johnFromE/store-manager-and-payment-app
    ```
 
 2. **Configure Database**: Set up a database to store product, sales, and customer information. Update the database configuration in the application to point to your database.
