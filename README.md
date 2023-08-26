@@ -1,6 +1,6 @@
-# Android Market Sales Management System
+# Store Manager and Payment App
 
-The Android Market Sales Management System, developed by Yonas Ayele, is a comprehensive application designed to streamline the sales management process for businesses operating in various markets. This README file provides an overview of the system, its features, installation instructions, and usage guidelines.
+The Android Store Manager and Payment App, developed by Yonas Ayele, is a comprehensive application designed to streamline the sales management process for businesses operating in various markets. This README file provides an overview of the system, its features, installation instructions, and usage guidelines.
 
 ## Table of Contents
 - [Features](#features)
